@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ta na Mão</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./homestyle.css" />
+    <script src="./home.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img
+            class="logo_tanamao"
+            src="../assets/img/Frame 4 (2).png"
+            alt="logo"
+          />
+        </div>
+        <ul>
+          <li>Início</li>
+          <li
+            id="cadastro"
+            onclick="window.location.href='../index.html'"
+            style="cursor: pointer"
+          >
+            Cadastrar
+          </li>
+          <li
+            id="sobre"
+            onclick="window.location.href='./about/about.html'"
+            style="cursor: pointer"
+          >
+            Sobre
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="pesquisa_section">
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchType"
+            name="pesquisa"
+            placeholder="O que você precisa"
+            required
+          />
+          <button id="searchBtn">Buscar</button>
+        </div>
+      </section>
+
+      <section class="setor_containers">
+        <button class="btn_setor">Limpeza</button>
+        <button class="btn_setor">Construção</button>
+        <button class="btn_setor">Logística</button>
+        <button class="btn_setor">Limpeza</button>
+        <button class="btn_setor">Limpeza</button>
+        <button class="btn_setor">Limpeza</button>
+        <button class="btn_setor">Limpeza</button>
+        <button class="btn_setor">Limpeza</button>
+      </section>
+
+      <section id="list-employs" class="employs_containers">
+        <div class="employs_box">
+          <div class="employ_img"></div>
+          <article class="employ_description">
+            <h2 class="name_employ">Juliano Ambrósio</h2>
+            <h3 class="section_employ">Setor</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              placeat corporis deserunt dignissimos voluptatibus tempore aperiam
+              fugit dolores, nihil quos debitis maiores, nemo at molestias
+              ducimus! Adipisci placeat enim deleniti.
+            </p>
+            <button class="employ_contact">Contato</button>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    background-color: #280024;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: #9855AF;
+}
+
+nav{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    color: #FFFFFF;
+}
+
+/* Container da página About */
+.about-container {
+    border: none;
+    padding: 40px;
+    width: 100%;
+    max-width: 700px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(80, 80, 110, 0.2);
+    color: #ffffff;
+}
+
+/* Título principal */
+.about-container h1 {
+    color: #6a0dad;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Títulos das seções */
+.about-container h2 {
+    text-align: center;
+    color: #6a0dad;
+    font-size: 1.8em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Texto do conteúdo */
+.about-container p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+/* Lista de valores */
+.about-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-container ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.about-container ul li strong {
+    color: #ac76d3;
+}
+
+/* Botão de retorno */
+.about-container .back-button {
+    display: inline-block;
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.about-container .back-button:hover {
+    background-color: #ffffff;
+}
